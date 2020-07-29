@@ -6,7 +6,7 @@
   "scripts": {
     "start": "lite-server"
   },
-  "author": "Pluralsight",
+  "author": "Santiago Figueroa",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
