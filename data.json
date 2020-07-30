@@ -1,33 +1,32 @@
-{
-    "userData":[
+[
 {
     "user_id": 1,
     "device":"Windows 10",
     "action":"start",
-    "date_actined":100
+    "date_actioned":100
 },
 {
     "user_id": 2,
     "device":"OSX 15",
     "action":"start",
-    "date_actined":200
+    "date_actioned":200
 },{
     "user_id": 1,
     "device":"iPhone 8s",
     "action":"start",
-    "date_actined":250
+    "date_actioned":250
 },
 {
     "user_id": 1,
     "device":"Windows 10",
     "action":"stop",
-    "date_actined":370
+    "date_actioned":370
 },
 {
     "user_id": 1,
     "device":"iPhone 8s",
     "action":"stop",
-    "date_actined":410
+    "date_actioned":410
 },
 {
     "user_id": 2,
@@ -43,4 +42,3 @@
 }
 
 ]
-}
