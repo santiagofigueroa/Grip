@@ -68,7 +68,7 @@ function setup(){
        xhp.onreadystatechange = function (){
         
         if (xhp.readyState == 4 && xhp.status === 200){
-            console.log("Success ");
+            console.log("Success");
              
              var data1 = JSON.parse(xhp.responseText);
             // Making sure the data is fine to proccess
@@ -84,9 +84,6 @@ function setup(){
             return "No data found";
         }
 
-        
-        
-       
        }//  End of function. 
 
 }
@@ -95,9 +92,12 @@ function setup(){
 //data = setup();
 // Use to return data to other Parts of the program 
 console.log(data);
-getUsers(data,"start" ,700 ,900);
-console.log();
-// Helps displaying to HTML in div tags.
-function showMessage(message){
-    document.getElementById("q3").innerHTML = message;
-}
+console.log(getUsers(data,"start" ,700 ,900));
+// 3
+console.log(getUsers(data,"stop" ,100 ,500));
+// []
+console.log("Call Play back time");
+
+// Q4 Implementation.
+getPlaybackTime(1,data);
+

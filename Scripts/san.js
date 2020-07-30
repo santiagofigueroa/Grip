@@ -6,4 +6,8 @@ function sanatize () {
     
     
 }
+// To show masseges at the front-end.
+function showMessage(message,divID){
+    document.getElementById(divID).innerHTML = message;
+}
 //});
