@@ -47,11 +47,10 @@ function getPlaybackTime(user_id, records){
         }
     }
     // As all playback number are sorted. 
-    
-    //Smallest value
     console.log(playback);
-    result = playback[0] - (playback.length -1);
-    
+     //Highest - lowest value in the array.
+    result = (playback[playback.length -1]) - playback[0];
+    console.log(result);
     //showMessage(result,"q4");
     return result;
 }
