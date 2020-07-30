@@ -1,8 +1,8 @@
 {
   "name": "js-starter-code",
   "version": "1.0.0",
-  "description": "JS Starter Code",
-  "main": "script.js",
+  "description": "Grip WD Test",
+  "main": "Scripts/script.js",
   "scripts": {
     "start": "lite-server"
   },
