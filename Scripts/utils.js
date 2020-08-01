@@ -62,7 +62,7 @@ function setup(){
     var xhp  = new XMLHttpRequest();
 	
     xhp.open('GET','data.json',true);
-    xhp.responseText = "text";
+    //xhp.responseText = "text";
     xhp.send();
    // Makes sure connection has being stablish.
        xhp.onreadystatechange = function (){

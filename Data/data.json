@@ -32,13 +32,13 @@
     "user_id": 2,
     "device":"OSX 15.4",
     "action":"stop",
-    "date_actined":490
+    "date_actioned":490
 },
 {
     "user_id": 3,
     "device":"Android 9.1",
     "action":"start",
-    "date_actined":700
+    "date_actioned":700
 }
 
 ]

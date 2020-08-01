@@ -32,10 +32,11 @@ function getUsers(records,  action ,  start_time, end_time ){
 
 function getPlaybackTime(user_id, records){
     var tmpRec  =  {};
+    // Temporary  variable to hold the data 
     tmpRec = records;
     var playback = [];
     result = 0;
-    console.log(tmpRec);
+   // console.log(tmpRec);
     for(key in tmpRec){
         if(tmpRec.hasOwnProperty(key)){
             if(tmpRec[key].user_id == user_id){
